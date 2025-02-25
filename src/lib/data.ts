@@ -1,11 +1,11 @@
 import { type Manifest } from 'jsrepo';
 
-type Block = {
+type SelfContainedRegistry = {
 	files: Record<string, string>;
 	manifest: Manifest;
 };
 
-export const blocks: Block[] = [
+export const registries: SelfContainedRegistry[] = [
 	{
 		manifest: {
 			categories: [
